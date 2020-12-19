@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>1Home</title>
+	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
