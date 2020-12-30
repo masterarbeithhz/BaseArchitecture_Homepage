@@ -2,7 +2,7 @@
     include('functions.php');
     if (!isLoggedIn()) {
         $_SESSION['msg'] = "You must log in first";
-        header('location: http://192.168.99.100/login/login.php');
+        header('location: http://130.211.228.246/login/login.php');
     }
 ?>
 <!DOCTYPE html>
@@ -38,7 +38,7 @@
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<a href="http://192.168.99.100/login/login.php" style="color: red;">logout</a>
+						<a href="http://130.211.228.246/login/login.php" style="color: red;">logout</a>
 					</small>
 
 				<?php endif ?>
